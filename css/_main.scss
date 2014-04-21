@@ -1,0 +1,47 @@
+// Fonts
+
+@font-face {
+font-family: days;
+src: url(36daysag.ttf);
+}
+
+@font-face {
+    font-family: sweetly;
+    src: url(Sweetly_Broken.ttf)
+}
+
+$primary-font: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$secondary-font:  Georgia, Times, "Times New Roman", serif;
+
+
+$breakpoint-one: 960px;
+
+html {
+    font-size: 62.5%;
+
+    @media screen and (max-width: $breakpoint-one) {
+        font-size: 50%;
+    }
+
+    @media screen and (max-width: 813px) {
+        font-size: 38%;
+    }
+
+}
+
+h1, h2, h3, h4 {
+    font-family: $secondary-font;
+    font-weight: normal;
+}
+
+body {
+    background: #f3f3f3;
+    font-size: 1.6rem;
+    line-height: 2rem; 
+    font-style: $primary-font;
+    
+
+}
+
+
+

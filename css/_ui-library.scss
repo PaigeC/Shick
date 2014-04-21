@@ -1,0 +1,35 @@
+$selection-color: #323A45;
+$selection-color-text: #D8D8D8;
+
+
+::-moz-selection {
+    background: $selection-color;
+    text-shadow: none;
+    color: $selection-color-text;
+}
+
+::selection {
+    background: $selection-color;
+    text-shadow: none;
+    color: $selection-color-text;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

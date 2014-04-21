@@ -1,0 +1,179 @@
+
+
+//Home Page
+
+.line {
+	width: 100%;
+	height: 20px;
+}
+.navbar {
+	text-align: center;
+	font-family: verdana;
+	background: url(images/zag.png);
+	background-repeat: repeat-x;
+	background-position: center;
+}
+.navbar #topnav {
+	display: inline-block;
+	height: 90px;
+	line-height: 90px;
+	background: #f3f3f3;
+}
+.navbar #topnav a {
+	font-size: 35px;
+	color: #000;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 5px;
+	font-family: "days";
+}
+.navbar #topnav a.active {
+	border-bottom: 5px solid #000;
+}
+
+.hero {
+	background:url('../images/bannerpicture.png') 75% 0 no-repeat;
+	width:100%;
+	height:620px;
+	background-size: cover;
+}
+
+.back {
+	background:url('../images/backs.jpg') 75% 0 no-repeat;
+	width:100%;
+	height:620px;
+	background-size: cover;
+}
+
+.kiss {
+	background:url('../images/kiss.jpg') 75% 0 no-repeat;
+	width:100%;
+	height:620px;
+	background-size: cover;
+}
+
+.vine {
+	background:url('../images/vine.jpg') 75% 0 no-repeat;
+	width:100%;
+	height:620px;
+	background-size: cover;
+}
+.bike {
+	background:url('../images/bike.jpg') 75% 0 no-repeat;
+	width:100%;
+	height:620px;
+	background-size: cover;
+}
+
+.circle {
+	background:url('../images/circle.jpg') 75% 0 no-repeat;
+	width:100%;
+	height:620px;
+	background-size: cover;
+}
+
+.footer {
+	background:url('../images/footer.png') 75% 0 no-repeat;
+	width: 100%;
+	height: 105px;
+	background-size: cover;
+}
+
+.profile {
+	max-height: 450px;
+	border: 10px;
+	border-color: #F2C19D;
+}
+
+.opening {
+	text-align: center;
+}
+
+#made {
+	text-align: center;
+}
+
+.form-control {
+	width: 100px;
+}
+
+h2 {
+	font-family: "days";
+	text-align: center;
+	font-size: 30px;
+}
+
+.container {
+	text-align: center;
+}
+
+h1 {
+	font-family: "sweetly";
+	font-size: 80px;
+	text-align:center;
+}
+
+.barn {
+	vertical-align: middle;
+}
+
+.logo {
+	width: 110px;
+	height: 80px;
+	vertical-align: middle;
+
+}
+
+hr{
+width: 940px;
+height: auto;
+margin: 10 10px;
+vertical-align: middle;
+}
+
+#myModalLabel {
+	font-family: "sweetly";
+	font-size: 40px;
+	text-align: center;
+
+}
+.modal-body {
+	font-family: "days";
+	font-size: 30px;
+}
+
+.btn-rsvp {
+
+  height: 100px;
+  width: 200px;
+  position: absolute; 
+  left: 50px;
+  top: 50px;
+  right: 0;
+  margin: 10 auto;
+  border: none;
+  font-family: "sweetly";
+  font-size: 50px;
+  display: inline-block;
+  background: #9BCD9B;
+  z-index: 5;
+
+  &:hover {
+	  
+	  background: #E6B98C;
+
+
+	}
+}
+
+.btn-default {
+	height: 50px;
+  width: 150px;
+  margin: 10 auto;
+  border: none;
+  font-family: "sweetly";
+  font-size: 26px;
+  background: #9BCD9B;
+  
+}
+

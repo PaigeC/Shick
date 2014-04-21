@@ -1,0 +1,17 @@
+//Layout Helpers
+.l-clear { clear: both; }
+.l-fl { float: left; }
+.l-fr { float: right; }
+.l-dn 	{ display: none; }
+.l-db 	{ display: block; }
+.l-dib 	{ display: inline-block; }
+
+.l-border-red 	{ border: 10px solid red; }
+.l-border-blue 	{ border: 10px solid blue; }
+
+// Clearfix
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
