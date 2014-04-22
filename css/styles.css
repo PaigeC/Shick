@@ -1,4 +1,4 @@
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/* normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
@@ -352,7 +352,7 @@ td,
 th {
   padding: 0; }
 
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/* normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -532,7 +532,7 @@ td,
 th {
   padding: 0; }
 
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/* normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -794,7 +794,7 @@ th {
 
 html {
   font-size: 62.5%;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2665,6 +2665,7 @@ input[type="button"].btn-block {
   font-family: 'Glyphicons Halflings';
   src: url("bootstrap/glyphicons-halflings-regular.eot");
   src: url("bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+
 .glyphicon {
   position: relative;
   top: 1px;
@@ -4445,12 +4446,14 @@ a.thumbnail.active {
 
   to {
     background-position: 0 0; } }
+
 @keyframes progress-bar-stripes {
   from {
     background-position: 40px 0; }
 
   to {
     background-position: 0 0; } }
+
 .progress {
   overflow: hidden;
   height: 20px;
@@ -5350,7 +5353,7 @@ button.close {
     border-radius: 10px;
     cursor: pointer;
     background-color: #000 \9;
-    background-color: transparent; }
+    background-color: rgba(0, 0, 0, 0); }
   .carousel-indicators .active {
     margin: 0;
     width: 12px;
@@ -5431,6 +5434,7 @@ button.close {
 
 @-ms-viewport {
   width: device-width; }
+
 .visible-xs, .visible-sm, .visible-md, .visible-lg {
   display: none !important; }
 
@@ -5559,9 +5563,11 @@ button.close {
 @font-face {
   font-family: days;
   src: url(36daysag.ttf); }
+
 @font-face {
   font-family: sweetly;
   src: url(Sweetly_Broken.ttf); }
+
 html {
   font-size: 62.5%; }
   @media screen and (max-width: 960px) {
@@ -5609,41 +5615,49 @@ body {
 .navbar #topnav a.active {
   border-bottom: 5px solid #000; }
 
+.glyphicon {
+  color: #9BCD9B; }
+
 .hero {
-  background: url("../images/bannerpicture.png") 75% 0 no-repeat;
+  background-image: url(http://shickimg.s3.amazonaws.com/index_mini.jpg);
   width: 100%;
   height: 620px;
   background-size: cover; }
 
 .back {
-  background: url("../images/backs.jpg") 75% 0 no-repeat;
+  background-image: url(http://shickimg.s3.amazonaws.com/backs_mini.jpg);
   width: 100%;
   height: 620px;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .kiss {
-  background: url("../images/kiss.jpg") 75% 0 no-repeat;
+  background-image: url(http://shickimg.s3.amazonaws.com/kiss_mini.jpg);
   width: 100%;
   height: 620px;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .vine {
-  background: url("../images/vine.jpg") 75% 0 no-repeat;
+  background-image: url(http://shickimg.s3.amazonaws.com/vine_mini.jpg);
   width: 100%;
   height: 620px;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .bike {
-  background: url("../images/bike.jpg") 75% 0 no-repeat;
+  background-image: url(http://shickimg.s3.amazonaws.com/bike_mini.jpg);
   width: 100%;
   height: 620px;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .circle {
-  background: url("../images/circle.jpg") 75% 0 no-repeat;
+  background-image: url(http://shickimg.s3.amazonaws.com/circle_mini.jpg);
   width: 100%;
   height: 620px;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .footer {
   background: url("../images/footer.png") 75% 0 no-repeat;

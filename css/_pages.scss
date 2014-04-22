@@ -31,45 +31,54 @@
 	border-bottom: 5px solid #000;
 }
 
+.glyphicon {
+	color: #9BCD9B;
+}
+
 .hero {
-	background:url('../images/bannerpicture.png') 75% 0 no-repeat;
+	background-image:url(http://shickimg.s3.amazonaws.com/index_mini.jpg);
 	width:100%;
 	height:620px;
 	background-size: cover;
 }
 
 .back {
-	background:url('../images/backs.jpg') 75% 0 no-repeat;
+	background-image:url(http://shickimg.s3.amazonaws.com/backs_mini.jpg);
 	width:100%;
 	height:620px;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .kiss {
-	background:url('../images/kiss.jpg') 75% 0 no-repeat;
+	background-image:url(http://shickimg.s3.amazonaws.com/kiss_mini.jpg);
 	width:100%;
 	height:620px;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .vine {
-	background:url('../images/vine.jpg') 75% 0 no-repeat;
+	background-image:url(http://shickimg.s3.amazonaws.com/vine_mini.jpg);
 	width:100%;
 	height:620px;
 	background-size: cover;
+	background-attachment: fixed;
 }
 .bike {
-	background:url('../images/bike.jpg') 75% 0 no-repeat;
+	background-image:url(http://shickimg.s3.amazonaws.com/bike_mini.jpg);
 	width:100%;
 	height:620px;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .circle {
-	background:url('../images/circle.jpg') 75% 0 no-repeat;
+	background-image:url(http://shickimg.s3.amazonaws.com/circle_mini.jpg);
 	width:100%;
 	height:620px;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .footer {
