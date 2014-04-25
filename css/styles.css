@@ -5618,49 +5618,8 @@ body {
 .glyphicon {
   color: #9BCD9B; }
 
-.hero {
-  background-image: url(http://shickimg.s3.amazonaws.com/index_mini.jpg);
-  width: 100%;
-  height: 620px;
-  background-size: cover; }
-
-.back {
-  background-image: url(http://shickimg.s3.amazonaws.com/backs_mini.jpg);
-  width: 100%;
-  height: 620px;
-  background-size: cover;
-  background-attachment: fixed; }
-
-.kiss {
-  background-image: url(http://shickimg.s3.amazonaws.com/kiss_mini.jpg);
-  width: 100%;
-  height: 620px;
-  background-size: cover;
-  background-attachment: fixed; }
-
-.vine {
-  background-image: url(http://shickimg.s3.amazonaws.com/vine_mini.jpg);
-  width: 100%;
-  height: 620px;
-  background-size: cover;
-  background-attachment: fixed; }
-
-.bike {
-  background-image: url(http://shickimg.s3.amazonaws.com/bike_mini.jpg);
-  width: 100%;
-  height: 620px;
-  background-size: cover;
-  background-attachment: fixed; }
-
-.circle {
-  background-image: url(http://shickimg.s3.amazonaws.com/circle_mini.jpg);
-  width: 100%;
-  height: 620px;
-  background-size: cover;
-  background-attachment: fixed; }
-
 .footer {
-  background: url("../images/footer.png") 75% 0 no-repeat;
+  background-image: url(http://shickimg.s3.amazonaws.com/footer_edited-1_mini.jpg);
   width: 100%;
   height: 105px;
   background-size: cover; }
