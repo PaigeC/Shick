@@ -5582,7 +5582,7 @@ h1, h2, h3, h4 {
   font-weight: normal; }
 
 body {
-  background: #f3f3f3;
+  background: #fff;
   font-size: 1.6rem;
   line-height: 2rem;
   font-style: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
@@ -5602,7 +5602,7 @@ body {
   display: inline-block;
   height: 90px;
   line-height: 90px;
-  background: #f3f3f3; }
+  background: #fff; }
 
 .navbar #topnav a {
   font-size: 35px;
@@ -5699,3 +5699,13 @@ hr {
   font-family: "sweetly";
   font-size: 26px;
   background: #9BCD9B; }
+
+#target {
+  height: 300px; }
+
+#bay {
+  margin: 0 auto; }
+
+#marriott {
+  width: 400px;
+  height: 150px; }
